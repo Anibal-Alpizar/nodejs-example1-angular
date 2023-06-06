@@ -8,6 +8,7 @@ import { CoreModule } from './core/core.module';
 import { ShareModule } from './share/share.module';
 import { HomeModule } from './home/home.module';
 import { UserModule } from './user/user.module';
+import { VideojuegoModule } from './videojuego/videojuego.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { UserModule } from './user/user.module';
     CoreModule,
     ShareModule,
     HomeModule,
-    UserModule
+    UserModule,
+    VideojuegoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
