@@ -15,14 +15,21 @@ import { VideojuegoModule } from './videojuego/videojuego.module';
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
+    // browser model y any export lib
+    BrowserModule, 
+    BrowserAnimationsModule, 
+
+    //app modules
     CoreModule,
     ShareModule,
+
+    // all modules
     HomeModule,
     UserModule,
-    VideojuegoModule
+    VideojuegoModule,
+
+    //  last one module
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
