@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoreModule } from './core/core.module';
 import { ShareModule } from './share/share.module';
 import { HomeModule } from './home/home.module';
+import { UserModule } from './user/user.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeModule } from './home/home.module';
     BrowserAnimationsModule,
     CoreModule,
     ShareModule,
-    HomeModule
+    HomeModule,
+    UserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
